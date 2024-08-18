@@ -6149,7 +6149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bc87e37-70bd-4489-bb8c-93d74dd26c03")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0222"
 			(at 237.49 171.45 0)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/1ea5270e-8819-418c-9247-dabde353d4cb"
-					(reference "#PWR0221")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab56f050-d1d9-4296-a490-7cce1d37c588")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0221"
 			(at 24.13 165.1 0)
 			(effects
 				(font
@@ -8220,7 +8220,7 @@
 		(instances
 			(project ""
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/1ea5270e-8819-418c-9247-dabde353d4cb"
-					(reference "#PWR0222")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)

@@ -2341,7 +2341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11333309-67a8-4d38-88bc-0bb487e044fc")
-		(property "Reference" "R514"
+		(property "Reference" "R513"
 			(at 96.774 96.774 90)
 			(effects
 				(font
@@ -2394,19 +2394,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R514")
+					(reference "R513")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R314")
+					(reference "R313")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R414")
+					(reference "R413")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R614")
+					(reference "R613")
 					(unit 1)
 				)
 			)
@@ -2737,13 +2737,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fdc07ea-a800-4bb1-a383-1aa84bd6c612")
-		(property "Reference" "R517"
+		(property "Reference" "R516"
 			(at 96.774 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "560"
@@ -2790,19 +2789,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R517")
+					(reference "R516")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R317")
+					(reference "R316")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R417")
+					(reference "R416")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R617")
+					(reference "R616")
 					(unit 1)
 				)
 			)
@@ -2897,7 +2896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25588e6c-f110-426c-b462-35f35612f39d")
-		(property "Reference" "R512"
+		(property "Reference" "R511"
 			(at 97.028 91.694 90)
 			(effects
 				(font
@@ -2950,19 +2949,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R512")
+					(reference "R511")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R312")
+					(reference "R311")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R412")
+					(reference "R411")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R612")
+					(reference "R611")
 					(unit 1)
 				)
 			)
@@ -2977,7 +2976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26f6dd6b-ebd4-4284-b10e-64e2ddb3188c")
-		(property "Reference" "R509"
+		(property "Reference" "R508"
 			(at 97.536 83.82 90)
 			(effects
 				(font
@@ -3030,19 +3029,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R509")
+					(reference "R508")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R309")
+					(reference "R308")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R409")
+					(reference "R408")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R609")
+					(reference "R608")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f740803-da03-4a7d-85f4-d91cf6c0a607")
-		(property "Reference" "R515"
+		(property "Reference" "R514"
 			(at 96.774 99.314 90)
 			(effects
 				(font
@@ -3266,19 +3265,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R515")
+					(reference "R514")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R315")
+					(reference "R314")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R415")
+					(reference "R414")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R615")
+					(reference "R614")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66ee2090-eaf4-430e-bfe1-d1fd815ac296")
-		(property "Reference" "R511"
+		(property "Reference" "R510"
 			(at 97.028 89.154 90)
 			(effects
 				(font
@@ -3823,19 +3822,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R511")
+					(reference "R510")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R311")
+					(reference "R310")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R411")
+					(reference "R410")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R611")
+					(reference "R610")
 					(unit 1)
 				)
 			)
@@ -3850,7 +3849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "703d7de5-99dc-4487-9e6c-8e412fcfc319")
-		(property "Reference" "R507"
+		(property "Reference" "R506"
 			(at 97.536 78.74 90)
 			(effects
 				(font
@@ -3903,19 +3902,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R507")
+					(reference "R506")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R307")
+					(reference "R306")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R407")
+					(reference "R406")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R607")
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -4322,7 +4321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91ab0627-9379-4b73-81cf-71243bed7149")
-		(property "Reference" "R506"
+		(property "Reference" "RU501"
 			(at 181.61 74.168 90)
 			(effects
 				(font
@@ -4374,19 +4373,19 @@
 		(instances
 			(project ""
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R506")
+					(reference "RU501")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R306")
+					(reference "RU301")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R406")
+					(reference "RU401")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R606")
+					(reference "RU601")
 					(unit 1)
 				)
 			)
@@ -4641,7 +4640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6a103d6-701f-47d7-92c0-22e2cbb7d364")
-		(property "Reference" "R516"
+		(property "Reference" "R515"
 			(at 96.774 101.854 90)
 			(effects
 				(font
@@ -4694,19 +4693,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R516")
+					(reference "R515")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R316")
+					(reference "R315")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R416")
+					(reference "R415")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R616")
+					(reference "R615")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cce2187f-17f1-4e5f-b657-a54068c8590b")
-		(property "Reference" "R508"
+		(property "Reference" "R507"
 			(at 97.536 81.28 90)
 			(effects
 				(font
@@ -5402,19 +5401,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R508")
+					(reference "R507")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R308")
+					(reference "R307")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R408")
+					(reference "R407")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R608")
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -5520,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d86ce5cf-299b-4e5a-8949-0bc77372fb93")
-		(property "Reference" "R513"
+		(property "Reference" "R512"
 			(at 96.774 94.234 90)
 			(effects
 				(font
@@ -5573,19 +5572,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R513")
+					(reference "R512")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R313")
+					(reference "R312")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R413")
+					(reference "R412")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R613")
+					(reference "R612")
 					(unit 1)
 				)
 			)
@@ -5922,7 +5921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec4b982b-0f44-42cd-aaca-fabbefafdc5f")
-		(property "Reference" "R510"
+		(property "Reference" "R509"
 			(at 97.536 86.36 90)
 			(effects
 				(font
@@ -5975,19 +5974,19 @@
 		(instances
 			(project "SolidKey-1-PCB"
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
-					(reference "R510")
+					(reference "R509")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
-					(reference "R310")
+					(reference "R309")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
-					(reference "R410")
+					(reference "R409")
 					(unit 1)
 				)
 				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
-					(reference "R610")
+					(reference "R609")
 					(unit 1)
 				)
 			)

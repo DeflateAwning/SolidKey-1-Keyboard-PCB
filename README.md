@@ -32,4 +32,6 @@ The hardware component of this project is licenced under the `CERN Open Hardware
     * US$50 for 0.6mm assembly ("Standard"), but US$26 for 0.8mm assembly ("Economic").
     * 0.8mm weighs 54g each. 0.6mm weighs 40g-54g each.
 
+## Resources
+
 * RP2040 Design Guide: https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf
