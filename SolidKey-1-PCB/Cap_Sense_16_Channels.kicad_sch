@@ -1,0 +1,5996 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "419c824e-c55c-4c78-91f8-6eee2c47b015")
+	(paper "USLetter")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sensor_Touch:CY8CMBR3116"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CY8CMBR3116"
+				(at 1.27 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.cypress.com/?docID=49119"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CapSense Controller, 16 Sensors, QFN-24+EP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Touch Sensor 16ch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CY8CMBR3116_0_1"
+				(rectangle
+					(start -10.16 22.86)
+					(end 10.16 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CY8CMBR3116_1_1"
+				(pin passive line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "CS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "CS14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "CS13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "CS12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "CS11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "CS10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "CS9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "CS8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "CS7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "CS6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "CS5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "CS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "CS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~{HI}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "~{XRES}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "CS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "CS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -20.32 180)
+					(length 2.54)
+					(name "CMOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 25.4 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "CS15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SolidKey1_Symbols:TouchPointWithGround"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -0.508 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TouchPointWithShield"
+				(at -6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 7.112 4.572 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "keyboard key touch point"
+				(at 8.89 -0.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "key touchpoint tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TouchPointWithGround_0_1"
+				(circle
+					(center -3.81 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -3.81 -1.27) (xy -5.08 0) (xy -3.81 1.27) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TouchPointWithGround_1_1"
+				(pin passive line
+					(at 1.27 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 53.34 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0331bebc-91d1-4972-ab81-75fb704b8bb0")
+	)
+	(junction
+		(at 53.34 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1137d3bb-29c0-4bf6-8357-d3206b0a05e9")
+	)
+	(junction
+		(at 53.34 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "115b1655-9daf-4e4a-b2a2-593bd4f57aac")
+	)
+	(junction
+		(at 53.34 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c0200f7-b121-47fc-9ff2-92ac7d56582b")
+	)
+	(junction
+		(at 175.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d525498-da3a-460c-af5a-5f1563e93ae0")
+	)
+	(junction
+		(at 53.34 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2decd17d-91bb-49e4-b41d-7ef8c933a338")
+	)
+	(junction
+		(at 53.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a49f54-93e1-424c-95eb-c5ad9fa9faf6")
+	)
+	(junction
+		(at 129.54 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "462d8d6f-9959-43d0-8dca-9fe77da05d24")
+	)
+	(junction
+		(at 53.34 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7f1901-7be3-4945-bc80-7021ae8a4d98")
+	)
+	(junction
+		(at 53.34 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537810db-3e63-4df6-99a9-48e70ec57760")
+	)
+	(junction
+		(at 53.34 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ed34c59-f504-4360-9453-b86731e87a28")
+	)
+	(junction
+		(at 53.34 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a825040-c457-4904-96f0-b1b298473efc")
+	)
+	(junction
+		(at 53.34 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a88a04-17f5-4984-93bf-5cac8d7291de")
+	)
+	(junction
+		(at 53.34 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb06a7b2-d95e-429f-a650-15fdb57a1225")
+	)
+	(junction
+		(at 53.34 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd18171b-a7b8-40f9-abd6-9d6a805e3b6f")
+	)
+	(junction
+		(at 113.03 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4915ad6-5058-4cbc-b132-fd8514e596ad")
+	)
+	(junction
+		(at 53.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c51f697c-4b29-49bb-a1d5-096a9c86eb62")
+	)
+	(junction
+		(at 113.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf03ed1-e403-43ce-ad58-0e9e7de4d433")
+	)
+	(junction
+		(at 53.34 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f41ea87b-d4dd-4d0a-942b-d7f356d4c712")
+	)
+	(no_connect
+		(at 142.24 80.01)
+		(uuid "66e9f6c0-ae24-48b3-8eb7-981742714317")
+	)
+	(wire
+		(pts
+			(xy 53.34 105.41) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08730429-8be3-4216-8084-2c68d46b0a80")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 106.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cb3771-b761-42f0-87e1-ac57ed93a3a7")
+	)
+	(wire
+		(pts
+			(xy 113.03 45.72) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1c580b-fdf5-4b1b-9c7a-33eeb56ec1ed")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a72cad-940d-4603-9d07-6f1860d1d753")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 64.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165b73fe-4ff9-46ad-8ca6-5792de75c29c")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f575e-6152-45ec-b711-cd7038e9dd8b")
+	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 64.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5edc1b-55ec-4a4c-9594-55e31de86c42")
+	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af36810-6a97-42aa-86a5-217259e7528f")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 53.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e08d86e-9569-4064-9830-0bfd0926337a")
+	)
+	(wire
+		(pts
+			(xy 149.86 118.11) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20933bdc-f727-4daf-b23a-9ade3adf8334")
+	)
+	(wire
+		(pts
+			(xy 66.04 74.93) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21441420-4181-4edb-8e6c-989b7e84c6ff")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a72f9f-b7f2-49b8-9b95-6ef3e978d8d9")
+	)
+	(wire
+		(pts
+			(xy 53.34 90.17) (xy 53.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34332557-7b8d-460a-8fb4-c2c2303c7a47")
+	)
+	(wire
+		(pts
+			(xy 53.34 82.55) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e8e14e-0411-46ff-8237-f17f5e627af6")
+	)
+	(wire
+		(pts
+			(xy 66.04 95.25) (xy 97.79 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ba7c10-65a8-4762-a8b4-482cddea8acf")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 53.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6b2faa-4d66-499f-84b9-1f1ce2565151")
+	)
+	(wire
+		(pts
+			(xy 53.34 87.63) (xy 53.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413ce951-02b4-47b3-86eb-d67553dc1242")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f89117-d98a-4b42-b871-980b6879f4ba")
+	)
+	(wire
+		(pts
+			(xy 66.04 105.41) (xy 97.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46022343-f764-4dcd-b3b8-7c8930aabc33")
+	)
+	(wire
+		(pts
+			(xy 53.34 97.79) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3f01e6-6043-4e22-93db-458a3f9870e0")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e274a40-5632-4a15-bab5-4d73ee5f3021")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 97.79 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e6ae17-b505-4c80-aa9c-daa194a95f85")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e151fb-6506-4aad-a7f2-dd4a8fa81182")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5940b5c0-1e34-478a-9225-ef91774293c2")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ae4621-75f7-47ee-8254-8682bb4e0ea1")
+	)
+	(wire
+		(pts
+			(xy 113.03 55.88) (xy 113.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad226f9-016f-44fc-bba9-8e5e531860d8")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627119db-46fc-4e64-99d5-78da0c7799b2")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d06243-839b-4b20-82d9-e6b59e8818c2")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643a3a94-074a-43d5-a93a-d82d636b3b00")
+	)
+	(wire
+		(pts
+			(xy 53.34 80.01) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656038b3-cf98-4fa5-a42c-d351b6038fd2")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6631e237-4436-45a6-b181-307aa7dc43ad")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68beda7e-a458-4c74-86ee-bd4c41552bbf")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 64.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716766a3-2e5e-47ba-a411-a96775a2af30")
+	)
+	(wire
+		(pts
+			(xy 149.86 107.95) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72501738-c930-4fcf-87c0-aaaa626f0a55")
+	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 97.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7501d8f4-9f70-4a46-b416-2f03c8e00161")
+	)
+	(wire
+		(pts
+			(xy 53.34 97.79) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781b51f6-da57-41e3-bfa3-14a40965f7c3")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 97.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b936cf9-0d21-4410-839e-38d06b190526")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6c6a51-4eaa-497a-b966-e423bf22c64a")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d08a546-ba16-4b59-af36-26b50d8a0751")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef7e6ca-d3d2-4338-a6f2-f84baaa74a86")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 97.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82be4d57-603e-4d75-a5b1-aa5075c9c03f")
+	)
+	(wire
+		(pts
+			(xy 105.41 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fecbbc-ad26-44f4-bcac-a6f229dddfb1")
+	)
+	(wire
+		(pts
+			(xy 106.68 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c2861f-6f62-4f42-bc5d-e54d4f28d9d5")
+	)
+	(wire
+		(pts
+			(xy 53.34 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b29adcd-c716-4211-b43c-3866ee5ba185")
+	)
+	(wire
+		(pts
+			(xy 83.82 90.17) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920f8733-9285-49b6-9552-a271b3a1bcda")
+	)
+	(wire
+		(pts
+			(xy 53.34 67.31) (xy 53.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978512cc-1b6d-4bba-87bb-f520afc46167")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 55.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1dfb9b-125c-4579-98f9-01f7cd0ea3a3")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9a092d-f2f2-4006-a431-a2c0fe737656")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11beb73-9a8a-4139-af15-f493570ad391")
+	)
+	(wire
+		(pts
+			(xy 106.68 48.26) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ac6542-0117-4034-b780-fdfdfba01909")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a944fca8-0cee-42ca-a9a7-fb5da4f3c141")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab749fdf-0153-4308-963d-95a65a7409fc")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b6a381-c34c-4130-9989-13980d4226a7")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb84aae1-1ceb-4e98-bcbe-4505b42bf889")
+	)
+	(wire
+		(pts
+			(xy 129.54 115.57) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcca9f7-b1e7-41c9-ae57-973a15c85926")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc6649e-c7c6-4c19-89a9-840b4196c08b")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32f9e7c-3f1e-4f64-a8b4-b17d43ba0c6b")
+	)
+	(wire
+		(pts
+			(xy 92.71 97.79) (xy 97.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c655664c-7ac8-42b9-9a65-a67a98c16801")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 53.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c950845e-ea2b-43aa-9218-4c94b22db1cc")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 53.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9959c6b-a3de-4bac-a2a1-4f95e2acdc2e")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 53.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f5f699-c200-4023-a7f4-14ec278d326d")
+	)
+	(wire
+		(pts
+			(xy 53.34 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f7d04d-1c9c-4e73-9133-1ad059ad4c8f")
+	)
+	(wire
+		(pts
+			(xy 53.34 87.63) (xy 82.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea712b3-7abb-4c80-9a8d-90deed988bc2")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1171683-b9e9-4f98-8438-377cd21b51a0")
+	)
+	(wire
+		(pts
+			(xy 74.93 82.55) (xy 97.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d8e933-f83d-4429-b447-ac53504495e7")
+	)
+	(wire
+		(pts
+			(xy 132.08 113.03) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2790dbf-4418-45ae-abab-b4508d03e4c0")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fee71e-9cf6-4892-adc6-2bb67c18b826")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82dd01a-99c1-4867-ac86-aa78760f8508")
+	)
+	(wire
+		(pts
+			(xy 105.41 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c6049c-cae6-49d5-b513-8bccba109b3a")
+	)
+	(wire
+		(pts
+			(xy 53.34 69.85) (xy 53.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf2c738-19e1-4dc9-bc19-7b31c0356877")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2e1e7b-6813-4c4e-8744-bafa5d194788")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31ca8be-1db7-48fe-8236-4fa8d438f434")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3677661-6e4f-4714-9d6b-2d939b873513")
+	)
+	(wire
+		(pts
+			(xy 66.04 85.09) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e374da45-9d8c-4d26-90d9-65a7cb2aaa49")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7679cd1-5b38-4dd5-9176-b33ddeb9f12a")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e1f015-fdb2-4db4-bdf2-173ed54ba646")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9305070-6b56-4c89-9119-0e7e56f45e88")
+	)
+	(wire
+		(pts
+			(xy 106.68 57.15) (xy 113.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea48937b-51b5-4702-9db8-d1dbf746263f")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb433f3d-1a8a-4c7e-99e4-ef23fdfd3cf3")
+	)
+	(wire
+		(pts
+			(xy 74.93 92.71) (xy 97.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaf7afe-64d8-4a8d-9a6e-985d8a755fd9")
+	)
+	(wire
+		(pts
+			(xy 189.23 78.74) (xy 189.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd6200e-e1c4-4d90-8908-40df513d3e07")
+	)
+	(wire
+		(pts
+			(xy 53.34 90.17) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1569c27-599e-4d49-945d-85a9e1d3fbb6")
+	)
+	(wire
+		(pts
+			(xy 53.34 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4863811-5067-44cb-af9d-e5d49d68c8cf")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a5b7b7-3578-4dd9-b2c9-a149b90b3ddb")
+	)
+	(wire
+		(pts
+			(xy 53.34 105.41) (xy 53.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bf654b-5cab-45e4-889a-1c50c131a780")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 53.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c2607e-67c5-4cf1-bddd-ddc573e789ca")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a62600-5673-4cee-8e65-ab619a6c95ee")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc382363-7a52-43ba-aee8-f20b54980352")
+	)
+	(wire
+		(pts
+			(xy 53.34 67.31) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6b8c86-affe-49d7-bb4a-06b320437956")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7d241a-c80c-49c6-a44f-ae5d9ab4f582")
+	)
+	(wire
+		(pts
+			(xy 142.24 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa345fe-f984-41a7-acd0-59002ff82fe0")
+	)
+	(text "CMOD Capacitor:\n2.2nF, 5V, X7R or NPO-type\nLCSC Options: C7496662, C5448798, C7393866"
+		(exclude_from_sim no)
+		(at 150.876 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "016348db-fffe-400e-8e97-c82221c3b9cf")
+	)
+	(text "~{HI}: Active-low host interrupt.\n  - Leave open if unused.\n  - Sends signal to host to do an\n    I2C transaction for reading the\n    changed sensor status.\n  - Requires pull-up."
+		(exclude_from_sim no)
+		(at 148.082 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "19178f27-addd-4932-b464-d535115fd6eb")
+	)
+	(text "VCC: Internal Regulator Output"
+		(exclude_from_sim no)
+		(at 176.276 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57788e57-8b04-4bf0-a8a9-c5c35e0e47fe")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 147.32 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7507ffb3-62be-49f2-9b96-9ae5fb2b6671")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 147.32 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e44505d2-5a7d-4c42-9e05-da71a9548b82")
+	)
+	(hierarchical_label "CAP_SENSE_HOST_INTERRUPT"
+		(shape output)
+		(at 189.23 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2753e72-78a6-4b52-b97f-cb46e454369b")
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 64.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc31653-4b60-4003-a06e-3390a6cf50dc")
+		(property "Reference" "K516"
+			(at 64.77 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 67.31 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 64.77 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 73.66 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4818c4-a691-4677-a446-8095a6f49de1")
+		)
+		(pin "2"
+			(uuid "9e01e6d9-7f0d-45d1-8944-6b528e49840d")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K516")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K316")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K416")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11333309-67a8-4d38-88bc-0bb487e044fc")
+		(property "Reference" "R514"
+			(at 96.774 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e90af055-b363-4b2c-b6cd-d12d2048e3f9")
+		)
+		(pin "1"
+			(uuid "89027450-a999-47b6-a204-3d87ddde8346")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R514")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R314")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R414")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 129.54 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12fb7efc-acef-4c24-a7c2-743d7e986cae")
+		(property "Reference" "#PWR0503"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.286 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9580f39b-aa18-472f-bf07-3f77d8f97097")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0503")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0403")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1419273c-f0a9-449d-b1bb-0ada534cd8fe")
+		(property "Reference" "R501"
+			(at 97.536 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6557f15b-df78-422b-bb29-9f581aefa265")
+		)
+		(pin "1"
+			(uuid "300fd4a9-8a7d-41b1-b865-1895657a0b8f")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R501")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R301")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R401")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 73.66 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17c34361-a64d-4f49-b701-16743cdd06a3")
+		(property "Reference" "K515"
+			(at 73.66 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 76.2 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 73.66 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.772 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 82.55 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b100e90-51b7-4787-8eab-fe14b3354ebc")
+		)
+		(pin "2"
+			(uuid "41ac7f43-ca97-4c05-b494-c991edec3152")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K515")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K315")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K415")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 82.55 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1be95349-6aed-4c29-92c3-0b3948c8ffd9")
+		(property "Reference" "K506"
+			(at 82.55 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 85.09 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 82.55 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.662 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 91.44 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c23997ac-2bdf-4543-926c-5c1b272f3046")
+		)
+		(pin "2"
+			(uuid "965ec2c5-3141-41d4-b9e4-a741c05bcff6")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K506")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K306")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K406")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fdc07ea-a800-4bb1-a383-1aa84bd6c612")
+		(property "Reference" "R517"
+			(at 96.774 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bc279e7-6c1a-4122-9620-1670f71fbf7b")
+		)
+		(pin "1"
+			(uuid "7d7037f2-93ae-4a25-9461-bb84ac2f2c2b")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R517")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R317")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R417")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 64.77 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "218d1eb5-260e-4bd8-b257-74c4d6f98bc7")
+		(property "Reference" "K504"
+			(at 64.77 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 67.31 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 64.77 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 73.66 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0588519-7fce-4c48-b829-ac9fb7fbd2c5")
+		)
+		(pin "2"
+			(uuid "a91d056a-33eb-4fc8-9645-e12f1340274c")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K504")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K304")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K404")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25588e6c-f110-426c-b462-35f35612f39d")
+		(property "Reference" "R512"
+			(at 97.028 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1836f55-0856-4fd1-a55b-beaa600ccbf7")
+		)
+		(pin "1"
+			(uuid "15116b07-e7bb-4e06-9cee-aba44a0bed37")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R512")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R312")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R412")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26f6dd6b-ebd4-4284-b10e-64e2ddb3188c")
+		(property "Reference" "R509"
+			(at 97.536 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1a0aa46-75b0-4da2-975e-a159e8a5aab6")
+		)
+		(pin "1"
+			(uuid "9eb5f175-c665-4139-96b0-bdd926705591")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R509")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R309")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R409")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fc687ee-8e47-40c9-a9f9-d5b327d205ed")
+		(property "Reference" "R502"
+			(at 97.536 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f10a9a2-67ba-4786-979b-719c146ee302")
+		)
+		(pin "1"
+			(uuid "447ee68b-97da-4fd3-9fdc-44a23f1df2c1")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R502")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R302")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R402")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 189.23 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3db2a919-3ea5-4854-9ede-3a76a97bc3c4")
+		(property "Reference" "#PWR0505"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 188.976 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb4f7378-2be7-4394-86da-62d7b0b53625")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0505")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0405")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f740803-da03-4a7d-85f4-d91cf6c0a607")
+		(property "Reference" "R515"
+			(at 96.774 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55aae095-5997-4cce-aa92-99b94f00fb4a")
+		)
+		(pin "1"
+			(uuid "b8982dae-1bcf-456c-bbe7-c176322f159d")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R515")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R315")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R415")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42c33478-a217-4a89-894f-4102908bfa54")
+		(property "Reference" "#PWR0504"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a8d7b32-3b35-4672-a841-b2eee534acfa")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0504")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48f93d1b-dd28-4484-a5e1-b2a9420b2b50")
+		(property "Reference" "R503"
+			(at 97.536 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae074be5-d804-432e-beae-ab110299f5bb")
+		)
+		(pin "1"
+			(uuid "f25ab4bc-3808-4438-b479-c2cf93486dfc")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R503")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R303")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R403")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb65232-d5df-4ebd-afa8-6e2abfb08744")
+		(property "Reference" "#PWR0506"
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc01f4f4-1254-4318-9588-33a39322adb1")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0506")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0406")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 64.77 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "511786a9-cf84-4efa-9368-45887aa68e0f")
+		(property "Reference" "K508"
+			(at 64.77 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 67.31 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 64.77 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 73.66 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d63aa2a-d6e6-47c8-8e51-abb03164b661")
+		)
+		(pin "2"
+			(uuid "06da7068-2fb8-4726-befe-3435c2c2fb1a")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K508")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K308")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K408")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 64.77 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "569b9520-eba8-47a5-b083-3468557bec90")
+		(property "Reference" "K512"
+			(at 64.77 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 67.31 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 64.77 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 73.66 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97ab0081-f18f-4255-b1f8-f861b966b86d")
+		)
+		(pin "2"
+			(uuid "0501637e-1b80-427f-9186-7d9e8a73ccbe")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K512")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K312")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K412")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ee26c44-a397-4741-b7e4-0e6734d37277")
+		(property "Reference" "C501"
+			(at 102.87 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 102.87 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.7148 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "156534f0-8abc-4662-8847-c3fb733115ce")
+		)
+		(pin "2"
+			(uuid "73cc65ba-598b-4eb7-8f6e-111cb529b15a")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "C501")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "C301")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "C401")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66ee2090-eaf4-430e-bfe1-d1fd815ac296")
+		(property "Reference" "R511"
+			(at 97.028 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dd319eb-74b3-4e38-9370-0bd0ead02fd8")
+		)
+		(pin "1"
+			(uuid "1cc4f3a0-4250-4f8e-9c83-4d6a9ea23b69")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R511")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R311")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R411")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "703d7de5-99dc-4487-9e6c-8e412fcfc319")
+		(property "Reference" "R507"
+			(at 97.536 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7d44fdd-d70e-423f-acf8-fc568a6a2d1b")
+		)
+		(pin "1"
+			(uuid "6370b1a3-1770-41cd-8e8e-4363200b2afe")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R507")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R307")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R407")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73d8b68a-143c-4906-b786-3962eac3bbc5")
+		(property "Reference" "#PWR0502"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eac3ce7-4c45-4c05-b535-46c1bf81c777")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74cad3f1-042b-489a-bca1-3de105059258")
+		(property "Reference" "C503"
+			(at 156.21 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 156.21 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 160.02 66.3448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbfa5ee6-5c25-4fb7-b397-750c193b81c2")
+		)
+		(pin "2"
+			(uuid "c2d56ac9-1b77-4264-9257-6e260f2ca590")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "C503")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "C303")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "C403")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "C603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 82.55 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7560e8c4-f1ad-47d4-a795-e6175d4fe215")
+		(property "Reference" "K514"
+			(at 82.55 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 85.09 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 82.55 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.662 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 91.44 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de8d0044-fbcc-4d67-a612-52a179199b99")
+		)
+		(pin "2"
+			(uuid "84b0d210-8b5c-48a7-a9a1-556660f3d4b5")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K514")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K314")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K414")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78aa05f1-f77d-44ad-9ba1-8b6f3092bd8d")
+		(property "Reference" "#PWR0507"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d73509-2e08-4675-af0b-4a2bc96ba5b8")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0507")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0407")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a0bd2d5-59cd-4d89-b317-bc0e5fec77b6")
+		(property "Reference" "#PWR0508"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae8f836d-d3ec-4677-9a90-64cb0ac019d0")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0508")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0408")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91ab0627-9379-4b73-81cf-71243bed7149")
+		(property "Reference" "R506"
+			(at 181.61 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k3"
+			(at 181.61 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 181.61 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f4ee24f-543e-4efd-b099-bf7ff4252dea")
+		)
+		(pin "1"
+			(uuid "6c52db75-5586-4541-9635-020af0bac530")
+		)
+		(instances
+			(project ""
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R506")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R306")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R406")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "968da152-4ffe-48c5-815a-12abd12c80a0")
+		(property "Reference" "R504"
+			(at 97.536 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c493a445-06d9-4def-bc92-3be86d4d74da")
+		)
+		(pin "1"
+			(uuid "5f032d62-6113-455a-8513-71bde754a913")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R504")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R304")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R404")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 91.44 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f60e021-8639-48d9-a6cc-6229a66af24b")
+		(property "Reference" "K505"
+			(at 91.694 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 93.98 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 91.44 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.552 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 100.33 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5a8348b-59a5-4d81-bca9-cf65d7943029")
+		)
+		(pin "2"
+			(uuid "f2569476-d59c-418b-be21-b11686ddd823")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K505")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K305")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K405")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 91.44 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a689ae7c-6312-47bd-af25-abe162a5f2f9")
+		(property "Reference" "K501"
+			(at 91.694 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 93.98 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 91.44 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.552 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 100.33 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef14ef32-872d-497d-b182-863612e46a16")
+		)
+		(pin "2"
+			(uuid "5953a007-d794-4e6c-8199-3a6e0be77c42")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K501")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K301")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K401")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6a103d6-701f-47d7-92c0-22e2cbb7d364")
+		(property "Reference" "R516"
+			(at 96.774 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00cdfff2-8cd8-4cba-b394-0afeb1f154f8")
+		)
+		(pin "1"
+			(uuid "ae73414c-0551-4020-80d9-4582452e0927")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R516")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R316")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R416")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab30d0e6-ad4e-4f6e-92f0-5cf5c5ffc121")
+		(property "Reference" "R505"
+			(at 97.536 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce1cdf58-bf00-4665-a52c-cb2b31470e91")
+		)
+		(pin "1"
+			(uuid "8efedb38-01f0-48e3-9d3a-44884bf7cae3")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R505")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R305")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R405")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b16d46cc-cc3e-459f-830d-415c9e375054")
+		(property "Reference" "#PWR0501"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 112.776 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cfefee9-afa4-4042-9db5-c1165cc172c4")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 73.66 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b33ddc60-55a3-4dc4-b9a9-4fbd61771289")
+		(property "Reference" "K507"
+			(at 73.66 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 76.2 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 73.66 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.772 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 82.55 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b3541f-35a9-4a56-b597-5659b6c52557")
+		)
+		(pin "2"
+			(uuid "acbee3ec-8476-46ce-b78f-d854e6783ab2")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K507")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K307")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K407")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 91.44 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5da9157-0670-41c0-8dc8-458eb146b16d")
+		(property "Reference" "K509"
+			(at 91.694 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 93.98 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_Index"
+			(at 91.44 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.552 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 100.33 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "489870df-04c6-4a72-9af0-0276c2d0fef3")
+		)
+		(pin "2"
+			(uuid "550893be-ca8c-4ed7-b93b-3f970986e2ec")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K509")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K309")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K409")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Touch:CY8CMBR3116")
+		(at 129.54 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b70fc80d-dde5-4c6b-949c-64ef4594e41f")
+		(property "Reference" "U501"
+			(at 131.7341 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CY8CMBR3116"
+			(at 131.7341 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.cypress.com/?docID=49119"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CapSense Controller, 16 Sensors, QFN-24+EP"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "48b62154-9776-4d6e-8bad-e5cb9cae6dc0")
+		)
+		(pin "8"
+			(uuid "ab64d0e2-ec1a-4f42-93c7-bd2a78a92eb6")
+		)
+		(pin "13"
+			(uuid "449d6122-44d4-4b62-baa5-13cdb3f01c75")
+		)
+		(pin "22"
+			(uuid "499877a2-bdb2-43cd-a0f4-996b91b97ce3")
+		)
+		(pin "20"
+			(uuid "66d0b27e-a167-4acb-bc57-489ebbe18402")
+		)
+		(pin "5"
+			(uuid "bd04171f-10da-4bf0-83b8-dca67b96e775")
+		)
+		(pin "3"
+			(uuid "3af54605-f4e6-4559-962d-160bbf095328")
+		)
+		(pin "19"
+			(uuid "55524d30-74f0-457d-91fe-f4b9be6d38a6")
+		)
+		(pin "1"
+			(uuid "7393616e-97ba-46f6-8232-276af9cadc4c")
+		)
+		(pin "12"
+			(uuid "cc4c0395-562d-4396-9046-b97adce80f92")
+		)
+		(pin "11"
+			(uuid "2a87c736-8f82-4bee-8fd8-15c616d7ea1f")
+		)
+		(pin "10"
+			(uuid "bda9466b-47b0-4e33-9bf6-f2c916440c65")
+		)
+		(pin "17"
+			(uuid "76b08e83-78b8-46d5-973f-db1ac32110e9")
+		)
+		(pin "6"
+			(uuid "f5e2ab45-2743-451a-b44f-3101a50cdec7")
+		)
+		(pin "21"
+			(uuid "738ca572-b0ce-4012-be65-a9f68de867cb")
+		)
+		(pin "4"
+			(uuid "24fefcf5-bc0b-4b07-a07a-332b55fa6a5c")
+		)
+		(pin "23"
+			(uuid "7938cbcc-4fe4-41fd-a420-ef59269577b9")
+		)
+		(pin "16"
+			(uuid "0a2f25bf-2ae5-439b-bb1c-e3a5331d052c")
+		)
+		(pin "2"
+			(uuid "733b2b87-8704-4394-b9f5-481f972cb248")
+		)
+		(pin "25"
+			(uuid "7313a19c-7cfd-459d-adc7-87e3b9a4c4d2")
+		)
+		(pin "24"
+			(uuid "8c23001a-a88e-4678-9be6-2c76da4c9771")
+		)
+		(pin "9"
+			(uuid "8a23fc24-8cdc-4aa8-ba33-343fba0e47ac")
+		)
+		(pin "7"
+			(uuid "19fcc6e7-3db2-4a69-98d5-140ae6cdccd7")
+		)
+		(pin "14"
+			(uuid "86cfec60-8617-433b-98c8-535345c8b4c2")
+		)
+		(pin "15"
+			(uuid "ff38e27a-e776-4d06-941c-7638a6661893")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "U501")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "U301")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "U401")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "U601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 73.66 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bef614f9-a9db-4ea5-a173-19885a616d68")
+		(property "Reference" "K503"
+			(at 73.66 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 76.2 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 73.66 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.772 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 82.55 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f33555-449c-488b-aab4-a45dd70dc5b7")
+		)
+		(pin "2"
+			(uuid "082a44a7-5599-470a-983c-4d1cc9b02c7a")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K503")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K303")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K403")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 82.55 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1e6ac6d-a2ef-4358-80fe-7069db00386a")
+		(property "Reference" "K510"
+			(at 82.55 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 85.09 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.662 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 91.44 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917d42f4-b7a8-4e76-949d-bc29a6ce4d97")
+		)
+		(pin "2"
+			(uuid "f5128205-e385-4440-a57b-b0600283a65b")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K510")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K310")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K410")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K610")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cce2187f-17f1-4e5f-b657-a54068c8590b")
+		(property "Reference" "R508"
+			(at 97.536 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5554f54d-a3a3-4946-807d-c885dae4b903")
+		)
+		(pin "1"
+			(uuid "7b79d53f-87ab-4043-88c2-5d2acc9e223a")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R508")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R308")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R408")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d121d486-b57d-49f1-9a1e-d313a6417026")
+		(property "Reference" "C504"
+			(at 153.67 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2n2"
+			(at 153.67 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 150.8252 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7393866"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a2d089e-98f4-4e9d-9a8a-9343bab4fe1a")
+		)
+		(pin "2"
+			(uuid "9279b055-66f5-4939-b1fb-be7b428d10fc")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "C504")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "C304")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "C404")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "C604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d86ce5cf-299b-4e5a-8949-0bc77372fb93")
+		(property "Reference" "R513"
+			(at 96.774 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f8b4dcd-d987-4494-9144-56595ac789ab")
+		)
+		(pin "1"
+			(uuid "d873a995-bc0f-4fb0-a7a9-da780443e769")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R513")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R313")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R413")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 91.44 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2978a47-8cb3-4305-85ac-d5ba1b2ad286")
+		(property "Reference" "K513"
+			(at 91.694 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 93.98 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_Index"
+			(at 91.44 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.552 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 100.33 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ee0f875-3a0d-46a9-aa02-ad9788b79798")
+		)
+		(pin "2"
+			(uuid "2806a26e-6219-483a-84ca-a662473469f2")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K513")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K313")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K413")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 73.66 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2e01fa7-6fc8-4f7d-825e-f60108ce5c49")
+		(property "Reference" "K511"
+			(at 73.66 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 76.2 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 73.66 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.772 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 82.55 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a599c373-a4a9-4e2a-bafa-a634f217ba7c")
+		)
+		(pin "2"
+			(uuid "005707df-c500-47ee-98bc-116dc37c004e")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K511")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K311")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K411")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SolidKey1_Symbols:TouchPointWithGround")
+		(at 82.55 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e923ef95-81fc-4a44-8042-192bd0279236")
+		(property "Reference" "K502"
+			(at 82.55 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TouchPoint"
+			(at 85.09 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolidKey1_Footprints:KeySwitch1_General"
+			(at 82.55 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.662 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "keyboard key touch point"
+			(at 91.44 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af4d74a1-33ed-4101-9bf9-17eb49a945b7")
+		)
+		(pin "2"
+			(uuid "a2f8ee88-1f78-47e8-88d8-dea1d2af49ed")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "K502")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "K302")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "K402")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "K602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb10de89-4f11-469c-a7d9-ea234608b431")
+		(property "Reference" "C502"
+			(at 116.84 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 116.84 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 113.9952 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb63aa0-1e22-4dab-a1f0-00462d0b6268")
+		)
+		(pin "2"
+			(uuid "9c2c1c57-6639-4f6a-b805-a627c552f1fb")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "C502")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "C302")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "C402")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "C602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec4b982b-0f44-42cd-aaca-fabbefafdc5f")
+		(property "Reference" "R510"
+			(at 97.536 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "560"
+			(at 106.172 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "150ba2a2-9eb0-4f7b-b3a6-1c22f8ddcd2b")
+		)
+		(pin "1"
+			(uuid "52bee70e-c98b-43e3-86e8-a981777b7c9e")
+		)
+		(instances
+			(project "SolidKey-1-PCB"
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/0985ec50-8c81-46bb-8805-f9fa10785c64"
+					(reference "R510")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/47acc2ae-bd18-4aee-bff6-1b0674fb2f64"
+					(reference "R310")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/a2b4e060-f2e7-4c89-a69e-4749e8ac3539"
+					(reference "R410")
+					(unit 1)
+				)
+				(path "/ab9c01e5-18ba-437e-8193-74ebfda4cffd/d81672ba-5fbd-4dc8-920d-12fa7a286f16"
+					(reference "R610")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

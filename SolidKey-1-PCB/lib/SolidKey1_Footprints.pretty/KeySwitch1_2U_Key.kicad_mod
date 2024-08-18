@@ -1,0 +1,131 @@
+(footprint "KeySwitch1_2U_Key"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6 12.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c51d95ed-3a7f-4b39-8a80-d7d41cfb3c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KeySwitch1_2U_Key"
+		(at -6 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec006f9e-b5dc-4f7f-ba9c-2a0e757681a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -6 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17bf1e85-765d-441b-b93e-b2ed43168e4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -6 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e72161c-5564-45c6-b88c-22f0c3c5fc88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -6 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f1d98ef-2c50-42b1-a563-49dc80877b92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 9.2 0)
+		(stroke
+			(width 2.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "afa9d172-d57e-4a5f-8975-484b3980c7fd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5a884042-54a3-4525-9679-71e8957ca0f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -6 15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f3c1e374-35b8-48cb-b989-9a7e0e9e8a94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 34 10)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "82bc760b-4e08-4555-a90a-6baa4aeb3261")
+	)
+	(pad "2" smd custom
+		(at 0 8)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_rect
+				(start -20 -16)
+				(end 20 0)
+				(width 3)
+				(fill no)
+			)
+		)
+		(uuid "419de601-e4f0-4164-a9c9-2b7b975309c1")
+	)
+)

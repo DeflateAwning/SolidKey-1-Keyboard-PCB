@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SolidKey1_Footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/SolidKey1_Footprints.pretty")(options "")(descr ""))
+)
