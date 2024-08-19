@@ -100,7 +100,7 @@ def write_svg_layout(key_layout: list[dict], output_file: str | Path):
     svg_drawing = svgwrite.Drawing(output_file, profile='tiny')
 
     # Set some basic parameters for units and scaling
-    UNIT_SIZE = 50  # Size of one unit in pixels
+    UNIT_SIZE = 65  # Size of one unit in pixels
     RECT_OPACITY = 1
     DRAW_KEY_LABELS = False
     DRAW_KEY_METADATA_LABELS = False
@@ -130,7 +130,7 @@ def write_svg_layout(key_layout: list[dict], output_file: str | Path):
             svg_drawing.rect(
                 insert=(x, y),
                 size=(width, height),
-                fill=color,
+                fill="none",
                 opacity=RECT_OPACITY,
                 stroke='black'
             )
