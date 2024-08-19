@@ -11,8 +11,8 @@ with open(Path(__file__).parent / 'output/iris_layout.json') as f:
 assert isinstance(key_layout, list)
 print(f"Loaded {len(key_layout)} keys.")
 
-key_ref_identifier_list = [
-    f"K{page}{num:02d}"
+ref_identifier_list = [
+    f"{page}{num:02d}"
     for page in [3,4,5,6]
     for num in range(1, 16+1)
 ]
@@ -34,17 +34,21 @@ assert board
 UNIT_TO_MM_SCALE = (79.37500/300) * 65
 
 for i, key in enumerate(key_layout):
-    ref_id = key_ref_identifier_list[i]
-    print(f"Placing {ref_id} at: {key}")
+    ref_id = ref_identifier_list[i]
+    print(f"Placing K{ref_id}+R{ref_id}")
     
-    footprint = board.FindFootprintByReference(ref_id)
-    assert footprint, f"Could not find footprint with reference {ref_id}"
+    # Place the Kxxx (key) part.
+    footprint = board.FindFootprintByReference("K" + ref_id)
+    assert footprint, f"Could not find footprint with reference K{ref_id}"
     footprint.SetPosition(
         pcbnew.VECTOR2I_MM(
             21 + (key['center_abs_x_units'] - key['width_units']/2) * UNIT_TO_MM_SCALE,
             22.2 + (key['center_abs_y_units'] - key['height_units']/2) * UNIT_TO_MM_SCALE,
         )
     )
+
+    # TODO: Place any other parts around (e.g., labels).
+
     pcbnew.Refresh()
 
     # if i > 20:

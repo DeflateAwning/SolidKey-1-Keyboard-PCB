@@ -35,6 +35,10 @@ The hardware component of this project is licenced under the `CERN Open Hardware
 ## Resources
 
 * RP2040 Design Guide: https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf
+* CY8CMBR3116 Capacitive Touch Guides:
+    * Datasheet: https://www.infineon.com/cms/en/product/microcontroller/sensing-controller/capsense-controllers/capsense-mbr3/cy8cmbr3116-lqxit/
+    * CY8CMBR3xxx CapSense Design Guide: https://www.cypress.com/?rID=90800
+    * Getting Started with CapSense: https://www.cypress.com/?rID=48787
 
 ## Future Work
 
