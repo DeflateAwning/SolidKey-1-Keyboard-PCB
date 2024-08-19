@@ -17,8 +17,8 @@
 		)
 	)
 	(property "Value" "046809610110846"
-		(at 0 4.5 0)
-		(layer "F.SilkS")
+		(at 0 6.5 0)
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "3919f153-8e51-4fdf-833d-f97e4f89694c")
 		(effects
@@ -247,7 +247,7 @@
 		(uuid "4145ed58-bbbc-4516-a363-a60fcdf35877")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 7 0)
+		(at 0 4.3 0)
 		(layer "F.Fab")
 		(uuid "925844c2-1edd-4296-8467-0e8b328be5cf")
 		(effects

@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -6.25 12.5 0)
+		(at -5.5 8.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "KeySwitch1_Index"
-		(at -6.25 14 0)
+		(at -5.3 11.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ec006f9e-b5dc-4f7f-ba9c-2a0e757681a7")
@@ -91,7 +91,7 @@
 		(uuid "05373c77-72b4-4568-af77-1bada188d08e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -6 15.5 0)
+		(at -5.55 9.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a23121c8-48eb-4541-9be8-27959d95d76a")
