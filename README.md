@@ -35,3 +35,7 @@ The hardware component of this project is licenced under the `CERN Open Hardware
 ## Resources
 
 * RP2040 Design Guide: https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf
+
+## Future Work
+
+* Add a dot mouse thing, like the ThinkPad keyboards.

@@ -9,6 +9,8 @@ import svgwrite
 # View the layout at: http://www.keyboard-layout-editor.com/#/gists/98b578d90ebc699eaa30546a98a3ad6a
 FOLDER = Path(__file__).parent
 
+# After all that, I found the spec: https://github.com/ijprest/keyboard-layout-editor/wiki/Serialized-Data-Format
+
 def load_file() -> list:
     # Load the key layout input_data.
     with open(FOLDER / 'input' / 'iris_keymap_layout_input.json') as f:
@@ -95,10 +97,14 @@ def write_svg_layout(key_layout: list[dict], output_file: str | Path):
     # - In SVG files, the origin is at the top-left corner.
 
     # Create a new SVG drawing
-    dwg = svgwrite.Drawing(output_file, profile='tiny')
+    svg_drawing = svgwrite.Drawing(output_file, profile='tiny')
 
     # Set some basic parameters for units and scaling
-    unit_size = 50  # Size of one unit in pixels
+    UNIT_SIZE = 50  # Size of one unit in pixels
+    RECT_OPACITY = 1
+    DRAW_KEY_LABELS = False
+    DRAW_KEY_METADATA_LABELS = False
+    DRAW_KEY_CENTER_CIRCLE = True
 
     # Find x/y min values to offset, if required.
     min_x = min(key['center_abs_x_units'] for key in key_layout)
@@ -106,46 +112,47 @@ def write_svg_layout(key_layout: list[dict], output_file: str | Path):
 
     for key in key_layout:
         # Calculate position and size
-        x = (key['center_abs_x_units'] - min_x) * unit_size
-        y = (key['center_abs_y_units'] - min_y) * unit_size
-        width = key['width_units'] * unit_size
-        height = key['height_units'] * unit_size
+        x = (key['center_abs_x_units'] - min_x) * UNIT_SIZE
+        y = (key['center_abs_y_units'] - min_y) * UNIT_SIZE
+        width = key['width_units'] * UNIT_SIZE
+        height = key['height_units'] * UNIT_SIZE
         # rotation = key['rotate_deg']
         color = key['color'] if key['color'] else 'red'
         # legend_size = key['legend_size'] if key['legend_size'] else 12
         legend_size = 12
 
         # Create a group for each key to handle rotation
-        # g = dwg.g(transform=f"rotate({rotation},{x + width / 2},{y + height / 2})")
-        g = dwg.g()
+        # g = svg_drawing.g(transform=f"rotate({rotation},{x + width / 2},{y + height / 2})")
+        g = svg_drawing.g()
 
         # Draw the key rectangle
         g.add(
-            dwg.rect(
+            svg_drawing.rect(
                 insert=(x, y),
                 size=(width, height),
                 fill=color,
-                opacity = 0.5,
+                opacity=RECT_OPACITY,
                 stroke='black'
             )
         )
 
         # Add the key label
-        g.add(
-            dwg.text(
-                f"{key['main_name']}",
-                insert=(x + width / 2, y + height / 2),
-                text_anchor="middle",
-                # alignment_baseline="middle",
-                font_size=legend_size,
-                fill='black'
+        if DRAW_KEY_LABELS:
+            g.add(
+                svg_drawing.text(
+                    f"{key['main_name']}",
+                    insert=(x + width / 2, y + height / 2),
+                    text_anchor="middle",
+                    # alignment_baseline="middle",
+                    font_size=legend_size,
+                    fill='black'
+                )
             )
-        )
 
         # Debugging: Add some metadata to the key.
-        if 1:
+        if DRAW_KEY_METADATA_LABELS:
             g.add(
-                dwg.text(
+                svg_drawing.text(
                     f"({key['center_abs_x_units']:.2f}, {key['center_abs_y_units']:.2f})",
                     insert=(x + width / 2, y + height / 2 + 15),
                     text_anchor="middle",
@@ -154,12 +161,21 @@ def write_svg_layout(key_layout: list[dict], output_file: str | Path):
                     fill='black'
                 )
             )
+        
+        if DRAW_KEY_CENTER_CIRCLE:
+            g.add(
+                svg_drawing.circle(
+                    center=(x + width / 2, y + height / 2),
+                    r=0.02 * UNIT_SIZE,
+                    fill='black'
+                )
+            )
 
         # Add the group to the drawing
-        dwg.add(g)
+        svg_drawing.add(g)
 
     # Save the SVG file
-    dwg.save()
+    svg_drawing.save()
 
 
 def main():
