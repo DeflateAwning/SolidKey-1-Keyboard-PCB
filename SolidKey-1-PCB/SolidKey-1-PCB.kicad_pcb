@@ -334,7 +334,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "02cc1175-cc53-4a32-b099-54ec2ea1ea3d")
-		(at 200.425 171.2)
+		(at 253.171875 50.232604)
 		(property "Reference" "K506"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -529,7 +529,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "066db235-74f7-4188-b627-d5d06c1483ec")
-		(at -34.65 131.55)
+		(at 159 40)
 		(property "Reference" "K613"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -723,7 +723,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "069cf688-2112-4822-b352-d1b645fd00ff")
-		(at -54.6 30)
+		(at 201.578125 86.692187)
 		(property "Reference" "K412"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -918,7 +918,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "08770362-7a03-44e0-bf99-b62cb52d36d7")
-		(at 200.425 204.3)
+		(at 253.171875 84.628437)
 		(property "Reference" "K508"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -1113,7 +1113,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "0ab70e9e-1516-4c7a-8aff-50bc2c437011")
-		(at -84.3 164.65)
+		(at 106.989583 105.781875)
 		(property "Reference" "K603"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -1308,7 +1308,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "0be14e84-e899-46e2-b107-6a4e3bbaa94d")
-		(at -51.2 181.2)
+		(at 140 40)
 		(property "Reference" "K612"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -1503,7 +1503,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "1428cc79-0efd-4152-8b18-ac266dd0dd79")
-		(at 216.975 204.3)
+		(at 270.369791 88.927916)
 		(property "Reference" "K512"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -1698,7 +1698,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "16ba5a5c-90c1-4acf-9dcd-dfdaabdaeeb4")
-		(at 29.6 37.35)
+		(at 29.598958 37.334166)
 		(property "Reference" "K301"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -1893,7 +1893,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "1dc081db-c6e7-4a03-a2ca-1ce880b1a1a9")
-		(at 233.525 154.65)
+		(at 287.567708 37.334166)
 		(property "Reference" "K513"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -2087,7 +2087,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "1ee7c0db-463c-42d0-8e46-f730c2f16816")
-		(at 400 40.5)
+		(at 29.598958 54.532083)
 		(property "Reference" "K302"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -2282,7 +2282,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "2767d32f-e902-4a1b-aa92-eb96a68c49c0")
-		(at 183.875 171.2)
+		(at 235.973958 47.996875)
 		(property "Reference" "K502"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -2712,7 +2712,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "33b9b9db-f0eb-4be2-9866-b87f487326c2")
-		(at 233.525 187.75)
+		(at 287.567708 71.73)
 		(property "Reference" "K515"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -2907,7 +2907,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "364e128e-fd51-46be-aecb-19b9f1620b64")
-		(at -67.75 181.2)
+		(at 192.979166 105.781875)
 		(property "Reference" "K608"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -3102,7 +3102,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "3aaf3778-e721-43c0-acb9-18c6ce343c42")
-		(at 449.65 23.95)
+		(at 81.192708 30.798958)
 		(property "Reference" "K313"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -3296,7 +3296,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "3ae62a16-ff02-4c09-a3f4-39a0a3be3fcc")
-		(at -84.3 181.2)
+		(at 124.1875 105.781875)
 		(property "Reference" "K604"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -3491,7 +3491,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "3d89f34c-4930-435e-ab54-697c7105a480")
-		(at -71.15 -3.1)
+		(at 115.588541 52.296354)
 		(property "Reference" "K406"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -3686,7 +3686,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "4135a96c-cc6b-452b-9bad-e6bdd1a96f0f")
-		(at 433.1 23.95)
+		(at 63.994791 33.034687)
 		(property "Reference" "K309"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -3880,7 +3880,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "4207d683-65d6-4536-a72d-380c1b279d5c")
-		(at 183.875 187.75)
+		(at 235.973958 65.194791)
 		(property "Reference" "K503"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -4075,7 +4075,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "4650e99b-6475-4190-825d-2f9e1aff270c")
-		(at 183.875 154.65)
+		(at 235.973958 30.798958)
 		(property "Reference" "K501"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -4270,7 +4270,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "4ad6e1e8-3383-406d-af99-bcb1ba94570b")
-		(at 400 73.6)
+		(at 29.598958 88.927916)
 		(property "Reference" "K304"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -4465,7 +4465,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "52908176-adb1-44ff-bc1e-c3026da863e7")
-		(at -34.65 181.2)
+		(at 177.5 62.5)
 		(property "Reference" "K616"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -4660,7 +4660,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "5cd4d5fa-a6a1-47c7-a7d3-8d4f84f32f8a")
-		(at 433.1 57.05)
+		(at 63.994791 67.43052)
 		(property "Reference" "K311"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -4855,7 +4855,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "5f52baf6-cc01-46c6-bbeb-1f2c10fa7b26")
-		(at 433.1 73.6)
+		(at 63.994791 84.628437)
 		(property "Reference" "K312"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -5050,7 +5050,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "63043bbc-5596-4ba9-ae6d-da63d6b32523")
-		(at 400 57.05)
+		(at 29.598958 71.73)
 		(property "Reference" "K303"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -5245,7 +5245,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "6452673e-7d2f-4807-b8b1-25f3013f79fd")
-		(at 416.55 23.95)
+		(at 46.796875 37.334166)
 		(property "Reference" "K305"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -5440,7 +5440,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "663f7a63-e033-4755-9c73-f27acd62e781")
-		(at -34.65 148.1)
+		(at 177.5 40)
 		(property "Reference" "K614"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -5635,7 +5635,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "66cc98a1-c375-4327-9c10-2c18446ec0f6")
-		(at -54.6 -19.65)
+		(at 201.578125 35.098437)
 		(property "Reference" "K409"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -5829,7 +5829,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "6b87924c-3453-4e3b-8b7d-6538f15bc8d5")
-		(at 216.975 154.65)
+		(at 270.369791 37.334166)
 		(property "Reference" "K509"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -6023,7 +6023,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "71659d3a-ea53-4585-b536-46f75cc8ec33")
-		(at -87.7 30)
+		(at 98.390625 84.628437)
 		(property "Reference" "K404"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -6218,7 +6218,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "7981ee53-574d-4755-861d-1f5fa61ebac7")
-		(at -87.7 -19.65)
+		(at 98.390625 33.034687)
 		(property "Reference" "K401"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -6413,7 +6413,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "7c284304-7da6-4341-913d-49bf44c212e9")
-		(at -84.3 148.1)
+		(at 89.791666 103.718125)
 		(property "Reference" "K602"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -6608,7 +6608,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "7cb9724d-164b-4d7f-9f06-ed0aeeea7747")
-		(at -51.2 164.65)
+		(at 244.572916 103.890104)
 		(property "Reference" "K611"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -6803,7 +6803,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "805ce26b-9fb2-4ed3-bbd9-621676ec9d84")
-		(at 233.525 171.2)
+		(at 287.567708 54.532083)
 		(property "Reference" "K514"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -6998,7 +6998,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "86fc6181-310b-4b15-9e30-29567560af0d")
-		(at 416.55 73.6)
+		(at 46.796875 88.927916)
 		(property "Reference" "K308"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -7193,7 +7193,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "8ab6218a-4871-428d-8050-60c718c674ec")
-		(at -87.7 13.45)
+		(at 98.390625 67.43052)
 		(property "Reference" "K403"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -7388,7 +7388,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "8ae27983-cbec-484b-ba88-7114f7861c17")
-		(at -34.65 164.65)
+		(at 140 62.5)
 		(property "Reference" "K615"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -7583,7 +7583,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "907dc1db-c6aa-4bdc-a338-ee94c26fe83e")
-		(at 449.65 73.6)
+		(at 81.192708 82.392708)
 		(property "Reference" "K316"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -7778,7 +7778,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "93fe0fa5-5e58-42fc-8492-f635c085b36d")
-		(at 233.525 204.3)
+		(at 287.567708 88.927916)
 		(property "Reference" "K516"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -7973,7 +7973,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "9627bd1d-6255-4f18-8658-6618f63537a5")
-		(at -54.6 -3.1)
+		(at 201.578125 52.296354)
 		(property "Reference" "K410"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -8168,7 +8168,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "9c318563-6694-4ad6-b154-f87e75abf364")
-		(at 416.55 40.5)
+		(at 46.796875 54.532083)
 		(property "Reference" "K306"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -8363,7 +8363,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "9dfd1d3a-f089-4624-9fda-6654b90e6f1d")
-		(at -38.05 13.45)
+		(at 218.776041 67.43052)
 		(property "Reference" "K415"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -8558,7 +8558,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "b50179f4-5eb6-4e5f-ba0c-0bfc36d272e8")
-		(at 216.975 187.75)
+		(at 270.369791 71.73)
 		(property "Reference" "K511"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -8753,7 +8753,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "b9ca5391-5efc-4772-921d-2c447885c838")
-		(at -87.7 -3.1)
+		(at 98.390625 50.232604)
 		(property "Reference" "K402"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -8948,7 +8948,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "bceec12c-7b0b-476c-b48b-3b3e04f6d07b")
-		(at 183.875 204.3)
+		(at 235.973958 82.392708)
 		(property "Reference" "K504"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -9143,7 +9143,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "be28259c-79d1-4c6b-bc91-fe4de40daa76")
-		(at 416.55 57.05)
+		(at 46.796875 71.73)
 		(property "Reference" "K307"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -9338,7 +9338,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "c2c1f81e-ae49-4b1b-9293-2d00aec6d88f")
-		(at -38.05 -19.65)
+		(at 218.776041 33.034687)
 		(property "Reference" "K413"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -9532,7 +9532,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "c3a607b6-b842-40b3-9ee4-a5316ad03666")
-		(at -71.15 30)
+		(at 115.588541 86.692187)
 		(property "Reference" "K408"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -9727,7 +9727,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "c6648015-d9e8-4935-b51e-c653535d95fb")
-		(at -71.15 -19.65)
+		(at 115.588541 35.098437)
 		(property "Reference" "K405"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -9922,7 +9922,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "c8cb8989-345b-46bf-9408-1edb3bb5e615")
-		(at -67.75 164.65)
+		(at 175.78125 105.781875)
 		(property "Reference" "K607"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -10117,7 +10117,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "cb6f99c8-c403-4e6b-bdcd-9e39f5e04b29")
-		(at 433.1 40.5)
+		(at 63.994791 50.232604)
 		(property "Reference" "K310"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -10312,7 +10312,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_Index"
 		(layer "F.Cu")
 		(uuid "d282e0e5-a02b-409e-b957-c0111423e43d")
-		(at -51.2 131.55)
+		(at 210.177083 105.781875)
 		(property "Reference" "K609"
 			(at -5.5 8.3 0)
 			(unlocked yes)
@@ -10506,7 +10506,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "d90d57fa-8d41-4664-8c59-290292849a87")
-		(at -54.6 13.45)
+		(at 201.578125 69.49427)
 		(property "Reference" "K411"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -10701,7 +10701,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "daebf4c8-5874-4712-8a03-05affd6385de")
-		(at -38.05 -3.1)
+		(at 218.776041 50.232604)
 		(property "Reference" "K414"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -10896,7 +10896,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "db5c4178-354a-424e-97fa-d11e786cf5ad")
-		(at -67.75 131.55)
+		(at 141.385416 105.781875)
 		(property "Reference" "K605"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -11091,7 +11091,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "db82c308-f6b3-417c-a2b8-d849720c9c7d")
-		(at 216.975 171.2)
+		(at 270.369791 54.532083)
 		(property "Reference" "K510"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -11286,7 +11286,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "dbbd4dcf-8987-4da4-a16c-a00bbedeb43f")
-		(at 200.425 187.75)
+		(at 253.171875 67.43052)
 		(property "Reference" "K507"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -11481,7 +11481,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "deac058c-74d2-470d-9947-4169851b5e12")
-		(at -84.3 131.55)
+		(at 72.59375 103.718125)
 		(property "Reference" "K601"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -11676,7 +11676,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "df44ce15-9a4a-468c-a078-ec8fb8ba1627")
-		(at 200.425 154.65)
+		(at 253.171875 33.034687)
 		(property "Reference" "K505"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -11871,7 +11871,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "e89b0a75-d5fa-48d0-ab06-70fb35772d84")
-		(at -67.75 148.1)
+		(at 158.583333 105.781875)
 		(property "Reference" "K606"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -12066,7 +12066,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "ebe70bb1-e621-4bc8-ba4f-93bc06f76884")
-		(at 449.65 57.05)
+		(at 81.192708 65.194791)
 		(property "Reference" "K315"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -12261,7 +12261,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "ef8b99d6-2b9d-4ea3-94d9-174d3efb7b0b")
-		(at -71.15 13.45)
+		(at 115.588541 69.49427)
 		(property "Reference" "K407"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -12456,7 +12456,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "f1aea526-41fc-4ad2-ac06-e5ce238d7f7d")
-		(at 449.65 40.5)
+		(at 81.192708 47.996875)
 		(property "Reference" "K314"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -12651,7 +12651,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "f63d30b3-f9b9-4042-b0c1-493924afd436")
-		(at -38.05 30)
+		(at 218.776041 84.628437)
 		(property "Reference" "K416"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -12846,7 +12846,7 @@
 	(footprint "SolidKey1_Footprints:KeySwitch1_General"
 		(layer "F.Cu")
 		(uuid "ffaef572-b39a-4a11-9247-b0974d789e17")
-		(at -51.2 148.1)
+		(at 227.375 103.890104)
 		(property "Reference" "K610"
 			(at -4.6 8.2 0)
 			(unlocked yes)
@@ -40939,7 +40939,7 @@
 		(descr "046809610110846+ ZIF Connector")
 		(tags "Connector")
 		(property "Reference" "J702"
-			(at 5.1 -0.29 360)
+			(at 5.1 -0.29 0)
 			(layer "B.SilkS")
 			(uuid "580884b7-79f3-49ab-a2b4-bc4840d9f903")
 			(effects
